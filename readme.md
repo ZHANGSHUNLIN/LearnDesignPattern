@@ -2,6 +2,8 @@
 #    设计模式 
 >  写代码和看代码必要的思维方式
 
+[![菜鸟教程] (https://www.runoob.com/design-pattern/factory-pattern.html)
+
 设计模式一共有二十三种 共分为四大类：
 ##  创建型模式
 
@@ -55,7 +57,7 @@
         传输对象模式（Transfer Object Pattern）
         
         
-    ![关系图](https://www.runoob.com/wp-content/uploads/2014/08/the-relationship-between-design-patterns.jpg)
+    [![关系图](https://www.runoob.com/wp-content/uploads/2014/08/the-relationship-between-design-patterns.jpg)
     
     
     

@@ -1,4 +1,4 @@
-package factorypattern.interfaces;
+package abstractfactoryparttern.interfaces;
 
 /**
  * <p>
@@ -6,7 +6,7 @@ package factorypattern.interfaces;
  * </p>
  *
  * @Author: Shun
- * @CreateTime: 2019-08-14 22:46
+ * @CreateTime: 2019-08-19 00:37
  * @Emil: 381889220@qq.com
  */
 public interface Shape {

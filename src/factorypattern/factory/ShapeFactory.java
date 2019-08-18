@@ -1,8 +1,8 @@
 package factorypattern.factory;
 
-import factorypattern.implementses.CircleImpl;
-import factorypattern.implementses.RectangleImpl;
-import factorypattern.implementses.SquareImpl;
+import factorypattern.implementses.Circle;
+import factorypattern.implementses.Rectangle;
+import factorypattern.implementses.Square;
 import factorypattern.interfaces.Shape;
 
 /**
@@ -25,11 +25,11 @@ public class ShapeFactory {
         }
 
         if (CIRCLE.equalsIgnoreCase(shapeType)) {
-            return new CircleImpl();
+            return new Circle();
         } else if (RECTANGLE.equalsIgnoreCase(shapeType)) {
-            return new RectangleImpl();
+            return new Rectangle();
         } else if (SQUARE.equalsIgnoreCase(shapeType)) {
-            return new SquareImpl();
+            return new Square();
         }
 
         return null;

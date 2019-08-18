@@ -4,16 +4,16 @@ import factorypattern.interfaces.Shape;
 
 /**
  * <p>
- * 正方形
+ * 圆形
  * </p>
  *
  * @Author: Shun
- * @CreateTime: 2019-08-14 22:52
+ * @CreateTime: 2019-08-14 22:53
  * @Emil: 381889220@qq.com
  */
-public class SquareImpl implements Shape {
+public class Circle implements Shape {
     @Override
     public void draw() {
-        System.out.println("画出Square...");
+        System.out.println("画出Circle...");
     }
 }
